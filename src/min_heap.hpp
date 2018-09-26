@@ -8,5 +8,7 @@ namespace data_structures
 {
 class MinHeap : public Heap
 {
+    public:
+        explicit MinHeap(unsigned int largest_heap_size);
 };
 }

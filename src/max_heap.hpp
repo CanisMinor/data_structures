@@ -8,5 +8,7 @@ namespace data_structures
 {
 class MaxHeap : protected Heap
 {
+    public:
+       explicit MaxHeap(unsigned int largest_heap_size);
 };
 }
