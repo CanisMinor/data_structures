@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
-project(rhyme_siri_rhyme CXX)
+project(data_structures CXX)
 
 set (CMAKE_CXX_STANDARD 14)
 

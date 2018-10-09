@@ -1,18 +1,20 @@
 #include <vector>
 
+#pragma once
+
 namespace data_structures
 {
 class Heap
 {
   public:
     // return number of entries in heap
-    virtual unsigned int size();
+    virtual unsigned int size() const;
 
     // return whether or not heap is empty
-    virtual bool is_empty();
+    virtual bool is_empty() const;
 
     // return root element of heap
-    virtual int get_root();
+    virtual int get_root() const;
 
     // pop element off heap
     virtual void pop();

@@ -2,13 +2,13 @@ find_package(Boost COMPONENTS system filesystem REQUIRED)
 
 add_executable(
     unit_tests
-    rhyme_matcher_test.cpp
+    min_heap_test.cpp
     )
 
 target_link_libraries(
     unit_tests
     gtest_main
-    rhyme_matcher
+    heap_lib
     ${Boost_FILESYSTEM_LIBRARY}
     ${Boost_SYSTEM_LIBRARY}
     )
